@@ -33,6 +33,7 @@ const Info = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
           lastUpdate={lastUpdate}
           cardSubtitle="Number of deaths caused by COVID-19."
         />
+        
       </Grid>
     </div>
   );
